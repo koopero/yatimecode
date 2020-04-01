@@ -6,16 +6,17 @@
   "author": "Samm Zuest Cooper <samm@hfour.ca>",
   "license": "MIT",
   "scripts": {
-    "test": "mocha",
-    "coverage": "nyc yarn run test"
+    "test": "mocha"
   },
   "nyc": {
     "all": true,
-    "include": [ "index.js" ]
+    "include": [
+      "index.js"
+    ]
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^7.1.0",
-    "nyc": "^15.0.0"
-  }
+    "mocha": "^7.1.0"
+  },
+  "repository": "https://github.com/koopero/yatimecode.git"
 }
